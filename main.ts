@@ -18,6 +18,13 @@ input.onButtonPressed(Button.B, function () {
 radio.onReceivedString(function (receivedString) {
     // Přijatý text
     basic.showString(receivedString)
+    basic.showLeds(`
+        # # . # #
+        # # # # #
+        . . # . .
+        # # # # #
+        # # . # #
+        `)
 })
 input.onButtonPressed(Button.A, function () {
     radio.sendString("Vali")
