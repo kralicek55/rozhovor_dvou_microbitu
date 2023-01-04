@@ -14,6 +14,7 @@ input.onButtonPressed(Button.B, function () {
         . . # . .
         `)
 })
+basic.showIcon(IconNames.Butterfly)
 radio.setGroup(1)
 basic.forever(function () {
 	
